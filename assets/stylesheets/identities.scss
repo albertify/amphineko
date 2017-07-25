@@ -17,6 +17,14 @@
     vertical-align: middle;
 }
 
+.identity {
+    transition-duration: .3s;
+}
+
+.identity:hover {
+    background-color: rgba(0, 0, 0, .04);
+}
+
 .identity .link {
     bottom: 0.5em;
     color: #e5837a;
@@ -62,4 +70,9 @@
     color: #aaa;
     margin: 0 0.2em;
     transform: rotateZ(-23deg);
+    transition-duration: .3s;
+}
+
+.identity-category .title .fa:hover {
+    transform: rotateZ(0deg);
 }
