@@ -1,5 +1,8 @@
-@import "../../bower_components/font-awesome/scss/font-awesome.scss";
-@import "../../bower_components/unsemantic/assets/sass/unsemantic-grid-responsive.scss";
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/fa-brands.scss";
+@import "fontawesome/fa-regular.scss";
+@import "fontawesome/fa-solid.scss";
+@import "../../node_modules/unsemantic/assets/sass/unsemantic-grid-responsive.scss";
 
 @import "header.scss";
 @import "identities.scss";
@@ -42,9 +45,9 @@ html {
     color: #caa;
 }
 
-.main-container {
-    margin: 0 auto;
-    max-width: 64em;
+.inset-container {
+    background: rgba(71, 102, 133, 0.99);
+    box-shadow: inset 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125); 
 }
 
 .no-wrap {
@@ -52,6 +55,10 @@ html {
 }
 
 .section {
+    margin: 1em auto;
+    max-width: 64em;
+}
+
+.section.shadow {
     box-shadow: 0 0 0.15em 0.15em rgba(0, 0, 0, 0.125);
-    margin: 1em 0;
 }
